@@ -1,0 +1,29 @@
+import numpy as np
+
+matrix = np.random.randint(0,10,(5,5))
+mat = np.array([1,2,3,4,5])
+
+print(np.shape(matrix))
+print(np.sum(matrix))
+
+print(np.mean(matrix))
+print(np.median(matrix))
+
+print(np.dot(matrix,mat))
+
+print(np.max(matrix))
+print(np.min(matrix))
+
+# Row sums
+print(np.sum(matrix,axis=1))
+      
+# Column sums
+print(np.sum(matrix,axis=0))
+
+# Transpose
+print(np.transpose(matrix))
+
+# Flatten
+m=np.array([[1,2,3],[4,5,6]])
+a = m.flatten()
+print(a)
