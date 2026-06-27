@@ -1,0 +1,23 @@
+Answer these in your own words.
+
+1.Why do we multiply by weights?
+---> Weights are allotted to the training or testing data to make sure they trigger right patterns. as we know by the example of guessing the number by handwritten value the dark pixels have more weight as compared to white pixels and it then applies patterns to find which number matches with this pixelated figure and provide the designated output as per the developer wants neuron to answer.
+
+2.Why do we add bias?
+---> we add bias just to shift the threshold of activation of our neuron. 
+
+3.Why can't we simply sum the inputs?
+---> If we simply sum the inputs then whats the point of using weights and threshold? see just summing the inputs is linear in nature. but we use sigmoid function and ReLU as well which are non linear and multidimentional so just summing up means youre solving a linear equation which we dont need we need more than that so just summing up is not enough
+
+4.Why is ReLU preferred today?
+---> ReLU gives particularly best outputs as compared to sigmoid and step function. as we know ReLU doesn't reduce the results of positive weights while it could reduce very smaller values directly to zero.
+
+5.What does a neuron actually learn?
+---> neuron doesn't learn it just memorizes patterns if we ask a neuron to write  it couldn't but it can identify a 5. and if we think of training then yes! we give patterns to train and then test it accordingly just like supervised unsupervised and mainly reinforcement learning.
+
+6.If one neuron can make a decision Why do we need millions?
+---> Lets do an analogy here.. a neuron can think just like a person. but when we compare the research or solution of a particular thing. a group of people will overcome a single person easily if we consider them of the same iq and thinking level. this is what applies for neuron. a single neuron can think the answer but the neural network amplifies it and if theres some noise it gets cleared out.
+
+7.Can one neuron recognize every handwritten digit? (WRONG ANSWER BY ME)
+---> The answer is yes. but its less efficient to use only one neuron when we can use the whole network. i do think it will take too much time and efforts to work with a single neuron insteead of Making a network!
+--->(RIGHT ANSWER) No!!! a neuron can not recognize every handwritten digit. one neuron only thinks in a straight boundary and it can not separate digits.
